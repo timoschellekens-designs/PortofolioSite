@@ -6,6 +6,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
     width: 100vw;
 }
@@ -26,6 +30,7 @@ nav {
     font-weight: 600;
     color: white;
     transition: 400ms;
+    text-decoration: none;
 }
 
 
@@ -278,3 +283,4 @@ input:hover {
     opacity: 1;
   }
 }
+
