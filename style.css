@@ -235,6 +235,7 @@ input {
     align-items: center;
     max-height: 50vh;
     padding-bottom: 3%;
+    overflow: hidden;
 }
 
 .project-image {
@@ -283,4 +284,5 @@ input:hover {
     opacity: 1;
   }
 }
+
 
