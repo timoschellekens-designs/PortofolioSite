@@ -242,6 +242,13 @@ input {
     box-shadow: 0 7px 12px rgba(0, 0, 0, 0.3);
 }
 
+.project-adobe-image {
+    width: auto;
+    max-width: 100vw;
+    height: 90vh;
+    margin-top: 10vh;
+}
+
 .project-button {
     margin-top: 5%;
     text-decoration: none;
@@ -296,3 +303,31 @@ input:hover {
 }
 
 
+@media only screen and (max-width: 800px) {
+  .about-card {
+    width: 80vw;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .top-text-bar {
+    width: 80vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    margin: 0 auto;
+  }
+
+  .character-image {
+    width: 80vw;
+    height: auto;
+  }
+}
