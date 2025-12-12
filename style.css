@@ -243,9 +243,8 @@ input {
 }
 
 .project-adobe-image {
-    width: auto;
-    max-width: 100vw;
-    height: 90vh;
+    width: 80vw;
+    height: auto;
     margin-top: 10vh;
 }
 
@@ -329,5 +328,19 @@ input:hover {
   .character-image {
     width: 80vw;
     height: auto;
+  }
+
+
+  .skill-stats {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill {
+    width: 80vw;
+  }
+
+  .title {
+    font-size: 10vw;
   }
 }
